@@ -24,3 +24,6 @@ Official website of Bishkek.
 ##### Surname: Diushenalieva
 ##### email: aiana.diushenalieva@iaau.edu.kg
 ##### phone: +996999251530
+
+# Screenshots
+![image]('')
