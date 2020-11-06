@@ -27,4 +27,4 @@ Official website of Bishkek.
 
 # Screenshots
 ![image](Screenshots/pic1.png)
-![image](Screenshot/pic2.png)
+![image](Screenshots/pic2.png)
