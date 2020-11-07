@@ -1,7 +1,7 @@
 # web-midterm
 
 Link to the website :
-https://diushes.github.io/web-midterm/
+https://diushes.github.io/midterm-web-project/
 
 # Bishkek
 
