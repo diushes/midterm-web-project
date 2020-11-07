@@ -5,6 +5,143 @@
 	font-size: 85px;
 	color: #FFFFFF;
 	font-family: 'Bebas Neue', cursive;
+	z-index: 0;
+}
+
+.buttons{
+	display: grid;
+	grid-auto-flow: column;
+	grid-column-gap: 5%;
+	position: absolute;
+	top: 10%;
+	right: 2%;
+	width: 30%;
+
+}
+
+.buttonone{
+	background-color: #5F5F5F;
+	font-size: 25%;
+	border-radius: 5px;
+	padding: 1% 8%;
+
+
+}
+
+.buttontwo{
+	background-color: #5F5F5F;
+	font-size: 25%;	
+	border-radius: 5px;
+	padding: 1% 8%;
+}
+
+
+.carousel {
+  top:-40px;
+  width: 50%;
+  height: 400px;
+  z-index: 2;
+}
+
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  height: 100%;
+  width: 100%;
+}
+
+ 
+
+
+.bottom{ 
+	width: 100%;
+	background-color: black;
+	z-index: 0;
+}
+
+.bottom-content{
+	position: relative;
+	padding-top: 5%;
+	display: grid;
+	grid-auto-flow: row;
+	grid-row-gap: 10px;
+}
+
+.social-media{
+	position: relative;
+	float: left; 
+	padding:3%; 
+	display: grid;
+	grid-auto-flow: column;
+	grid-column-gap: 20px;
+
+}
+
+.my-custom-scrollbar {
+  position: absolute;
+  top: 127.5px;
+  right: 0;
+  background-color: black;
+  width: 50%;
+  overflow: auto;
+  z-index: 2;
+}
+
+.my-custom-scrollbar,.h1{
+	float: right;
+	color: white;
+}
+
+
+.videos{
+	width: 100%;
+	background-color: green;
+
+    z-index: 0;
+}
+
+.container{
+	display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-column-gap: 1%;
+}
+
+ 
+.vidhold{
+	background-color: pink;
+}
+
+.card.mb-3{
+	float: right;
+	right: 15px;
+	width: 500px; 
+	height: 190px;
+	background-color: #323131
+}
+.card-img{
+	position: relative;
+	top:9px;
+	left: 6px;	
+	width: 110px;
+	height: 170px;
+}
+.card-body,.h5{
+	color: white;
+}
+
+.copyright{
+	position: relative;
+	top:340px;
+	left: 10px;
+}
+
+
+.top{ 
+	width: 100%;
+	background-color: black;
+	font-size: 85px;
+	color: #FFFFFF;
+	font-family: 'Bebas Neue', cursive;
 	z-index: 1;
 }
 
@@ -102,16 +239,7 @@
 	color: white;
 }
 
-.videos{
-	background-color: black;
-	width: 100%;
-}
-.videos-content{
-	padding: 2%;
-	display: grid;
-	grid-auto-flow: column;
-	grid-column-gap: 3%;	
-}
+
 
 .card.mb-3{
 	float: right;
@@ -131,8 +259,7 @@
 	color: white;
 }
 
-.copyright{
-	position: relative;
-	top:340px;
-	left: 10px;
+@media only screen and (max-width: 600px) {
+
+
 }
